@@ -4,17 +4,26 @@
     box-sizing: border-box; 
  }
 
-body{
-    
-}
-
-div{
+ body{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    background: linear-gradient( to right, rgb(255, 255, 255) 70%, rgb(228, 82, 25) 30%);
 }
 
-ul{
+header div{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.titulo1{
+    color: black;
+}
+
+.titulo2{
+    color: black;
+}
+
+.titulo3{
     color: white;
 }
