@@ -5,25 +5,74 @@
  }
 
  body{
-    display: flex;
-    flex-direction: row;
+    width: 100vw;
+    overflow: hidden;
+    height: 100vh;
+    font-size: 20px;
+    background-repeat: no-repeat;
     background: linear-gradient( to right, rgb(255, 255, 255) 70%, rgb(228, 82, 25) 30%);
 }
 
-header div{
+.menu{
     display: flex;
-    justify-content: space-between;
-    list-style-type: none;
+    list-style: none;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.titulo1{
+.menu li{
+    float: left;
+    padding-right: 70px;
+    padding-top: 50px;
+}
+
+.titulo1 li a{
+    text-decoration: none;
     color: black;
 }
 
-.titulo2{
-    color: black;
-}
-
-.titulo3{
+.titulo2 a{
+    text-decoration: none;
     color: white;
+}
+
+.logo img{
+    width: 350px;
+    padding-left: 90px;
+    padding-top: 30px;
+}
+
+.lupa img{
+    width: 40px;
+    position:absolute;
+	margin-left:950px;
+	margin-top:45px;
+}
+
+main{
+    padding-left: 90px;
+    padding-top: 30px;
+}
+
+main h1{
+    color: rgb(223, 164, 77);
+    position: relative;
+    font-size: 100px;
+}
+
+main h2{
+    font-size: 30px;
+}
+
+main p{
+    font-size: 25px;
+    font-weight: 200;
+    max-width: 800px;
+}
+
+.prato img{
+    width: 400px;
+    position: absolute;
+    left: 800px;
+    top: 150px;
 }
