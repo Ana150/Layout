@@ -22,7 +22,7 @@
     font-size: 20px;
     float: left;
     padding-right: 80px;
-    padding-top: 50px;
+    margin-top: -22px;
     list-style: none;
 }
 
@@ -45,6 +45,7 @@
 .logo img{
     width: 200px;
     margin-left: 30px;
+    margin-top: 50px;
 }
 
 .lupa img{
@@ -56,18 +57,17 @@
 
 main{
     margin-left: 150px;
-    /* margin-top: 20px; */
 }
 
 main .meio{
     flex-direction: row;
     align-items: center;
-    margin-top: -200px;
+    margin-top: 100px;
 } 
 
 main h1{
     color: rgb(223, 164, 77);
-    /* position: relative; */
+    position: relative;
     font-size: 120px;
     font-family: 'Frank Ruhl Libre', serif;
 }
@@ -92,14 +92,14 @@ main p{
     width: 500px;
     position: absolute;
     left: 780px;
-    top: 120px;
+    top: 450px;
 }
 
 .icones img{
     width: 50px;
     position: absolute;
     left: 1300px;
-    top: 260px;
+    top: 600px;
 }
 
 footer{

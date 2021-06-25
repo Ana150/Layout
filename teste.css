@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+ }
+
+ body{
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient( to right, rgb(255, 255, 255) 65%, rgb(228, 82, 25) 35%);
+}
+
+header{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 210px 50px 100px;
+}
+
+.barra img{
+    width: 45px;
+    margin-left: -60px;
+}
+
+.logo img{
+    width: 200px;
+}
+
+.menu ul{
+    display: flex;
+    float: left;
+    gap: 20px;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 25px 0px 0px;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 18px;
+    user-select: none;
+    transition: all 1s;
+ }
+ 
+ .menu a:hover{
+    color: rgba(0, 0, 0, 0.131);
+ }
+
+.titulo1 a{
+    color: rgb(0, 0, 0);
+    margin: 0px 15px 0px 0px;
+}  
+
+.titulo2 a{
+    color: rgb(255, 255, 255);
+    margin: 0px 15px 0px 0px;
+}
+ 
+.lupa img{
+    width: 35px;
+    position: absolute;
+    left: 1250px;
+    top: 18px;
+}
+
+main{
+    margin: 0px 200px 0px 200px;
+}
+
+main h1{
+    color: rgb(223, 164, 77);
+    position: relative;
+    font-size: 120px;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+
+main h2{
+    font-size: 52px;
+    font-family: 'Old Standard TT', serif;
+}
+
+.nes{
+    position: relative;
+    left: -620px;
+    top: 330px;
+    transform: rotate(90deg); 
+}
+
+main p{
+    font-size: 20px;
+    max-width: 360px;
+    padding: 20px 0px 20px;
+}
+
+.prato img{
+    width: 420px;
+    position: absolute;
+    left: 740px;
+    top: 100px;
+}
+
+.icones img{
+    width: 42px;
+    position: absolute;
+    left: 1250px;
+    top: 280px;
+}
+
+footer{
+    margin: 25px 200px 0px 200px;
+}
+
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.b1{
+    color: black;
+    background-color: rgba(218, 165, 32, 0);
+    font-size: 18px;
+    width: 160px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 0px;
+}
+
+.b2{
+    width: 160px;
+    height: 50px;
+    background-color: rgba(218, 165, 32, 0);
+    margin-top: -60px;
+    border-radius: 0px;
+}
+
+.pp1{
+    font-size: 18px;
+    position: relative;
+    left: -620px;
+    top: 410px; 
+    transform: rotate(90deg);
+}
+
+.pp2{
+    position: relative;
+    font-size: 18px;
+    color: white;
+    margin-top: -80px;
+    margin-left: 1070px;
+    transform: rotate(90deg); 
+} 
+ 
