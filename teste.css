@@ -85,10 +85,12 @@ main h2{
 }
 
 .nes{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     position: relative;
-    left: -620px;
-    top: 330px;
-    transform: rotate(90deg); 
+    width: 200px;
+    right: 240px;
+    top: -90px;
+    transform: rotate(270deg); 
 }
 
 main p{
@@ -113,6 +115,8 @@ main p{
 
 footer{
     margin: 25px 200px 0px 200px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
 }
 
 
@@ -145,17 +149,19 @@ button{
 .pp1{
     font-size: 18px;
     position: relative;
-    left: -620px;
-    top: 410px; 
+    width: 100px;
+    right: 190px;
+    top: -50px;
     transform: rotate(90deg);
 }
 
 .pp2{
     position: relative;
+    width: 50px;
     font-size: 18px;
     color: white;
-    top: 350px;
-    left: 590px;
-    transform: rotate(90deg); 
+    left: 1040px;
+    top: -50px;
+    transform: rotate(90deg);  
 } 
  
