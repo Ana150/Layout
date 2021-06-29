@@ -154,8 +154,8 @@ button{
     position: relative;
     font-size: 18px;
     color: white;
-    margin-top: -80px;
-    margin-left: 1070px;
+    top: 350px;
+    left: 590px;
     transform: rotate(90deg); 
 } 
  
